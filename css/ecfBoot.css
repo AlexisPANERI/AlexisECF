@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {margin: 0;padding: 0;}
+
+a{text-decoration: none;}
+
+.banner, .lorem, header {background: url(../sources/images/background_pattern.png);}
+
+hr{margin: 10px 0;border: none;border-top: 1px solid rgb(223, 223, 223);}
+
+/* NAVBAR */
+nav, .footer, .house{
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+nav div ul li a{display: block;font-size: 0.8em;color: #747474;}
+
+.house img {margin: 0 8px;border: 1px solid rgb(233, 233, 233);padding: 10px 8px;}
+
+/* ARTICLES */
+
+.articles div:nth-of-type(1) article  a:after {content: " →";}
+
+article{padding: 1.8em 0.5em;margin: 1.5em 0;}
+
+article h2{
+    font-size: 1.5em;
+    color: #f78633;
+    font-family: 'Bebas Neue', cursive;
+}
+
+article span {
+    color:#b9b9b9;
+    font-style: italic;
+    font-size: 0.8em;
+}
+article p {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#757575;
+    font-weight: 600;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+/* BANNER */
+.banner h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+    color: #b9b9b9;
+    margin: 5px 0;
+}
+.banner{font-size: 0.8em;}
+
+.banner h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+    color: #b9b9b9;
+    margin: 5px 0;
+}
+
+.banner a {
+    text-decoration: underline;
+    color: rgb(150, 150, 150);
+}
+
+.banner span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(175, 175, 175);
+}
+
+.banner p {
+    font-weight: 600;
+    line-height: 1.6;
+    color: rgb(99, 99, 99);
+}
+
+.banner b {color: rgb(105, 105, 105);}
+
+.banner i {color: rgb(185, 185, 185);}
+
+/* FOOTER */
+footer a {
+    font-size: 0.7em;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(158, 158, 158);
+}
+
+.fa-circle{color: #bcbcbc;}
