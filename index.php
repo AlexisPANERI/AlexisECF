@@ -19,7 +19,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item text-start pe-3">
                         <a href="#" class="fs-4" style="color: #7e7d7d;border-bottom: 6px solid #f76900;font-family:'Bebas Neue', cursive;">HOME</a>
