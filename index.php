@@ -98,7 +98,7 @@
             <article>
                 <h2>Flexible Pages</h2>
                 <span>sub title for home page box</span>
-                <div class="embed-responsive embed-responsive-16by9">
+                <div class="ratio ratio-16x9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
                 </div>
             </article>
