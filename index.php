@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/ecfBoot.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>ECF</title>
 </head>
 <body class="text-center">
@@ -14,12 +14,12 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand logo" href="#">
                 <img src="img/logo.svg" alt="Logo" style="width:75px">
-                <p style="letter-spacing: 0.2rem;font-family: 'Bebas Neue', cursive;color: #333333;font-size: 1.2em;">COMPANY LOGO</p>
+                <p>COMPANY LOGO</p>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#burgerNav" aria-controls="burgerNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="burgerNav">
                 <ul class="navbar-nav">
                     <li class="nav-item text-start pe-3">
                         <a href="#" class="fs-4" style="color: #7e7d7d;border-bottom: 6px solid #f76900;font-family:'Bebas Neue', cursive;">HOME</a>
@@ -64,11 +64,14 @@
     </section>
     <hr/>
     <section class="lorem">
-        <p class="text-center" style="font-family: Georgia, 'Times New Roman', Times, serif;max-width: 990px;font-style: italic;font-size: 1.1em;font-weight: 600;color: rgb(119, 119, 119);padding: 1.9em 0;margin:0 auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusod tempor <a href="" style="text-decoration: underline #f78633;color: rgb(138, 138, 138);">do eius mod tempor</a>  labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusod tempor 
+            <a href="" style="text-decoration: underline #f78633;color: rgb(138, 138, 138);">do eius mod tempor</a>
+            labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
     </section>
     <hr/>
     <div class="articles row justify-content-center">
-        <div class="col-6 col-sm-6 col-md-6 col-lg-2 text-start">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-2 text-start">
             <article style="border: 1px solid rgb(194, 194, 194);box-shadow: 3px 3px rgba(233, 233, 233, 0.521);">
                 <h2>Welcome</h2>
                 <span>Lorem ipsus dolor sit amet</span>
@@ -77,7 +80,7 @@
                 <a href="" style="font-size: 0.8em;font-weight: 700;font-style: italic;font-family: Georgia, 'Times New Roman', Times, serif;color: rgb(148, 148, 148);">read more</a>
             </article>
         </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-2 text-start">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-2 text-start">
             <article>
                 <div>
                     <h2>Latest Work</h2>
@@ -175,9 +178,10 @@
             <i class="fas fa-circle fa-stack-2x"></i>
             <i class="fab fa-google-plus-g fa-stack-1x fa-inverse"></i>
         </span>
-
       </div>
     </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
