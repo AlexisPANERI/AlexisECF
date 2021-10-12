@@ -70,7 +70,7 @@
         </p>
     </section>
     <hr/>
-    <div class="articles row justify-content-center">
+    <div class="articles row justify-content-center gx-0">
         <div class="col-12 col-sm-6 col-md-6 col-lg-2 text-start">
             <article style="border: 1px solid rgb(194, 194, 194);box-shadow: 3px 3px rgba(233, 233, 233, 0.521);">
                 <h2>Welcome</h2>
@@ -99,7 +99,7 @@
                 <h2>Flexible Pages</h2>
                 <span>sub title for home page box</span>
                 <div class="ratio ratio-16x9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/FGBhQbmPwH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </article>
         </div>
